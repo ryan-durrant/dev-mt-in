@@ -1,0 +1,10 @@
+@import url('https://fonts.googleapis.com/css?family=Lora');
+
+.navbar .nav .navbar-brand {
+  font-family: 'Lora', serif;
+  color: #000;
+}
+
+html {
+  background-color: red;
+}
