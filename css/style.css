@@ -1,10 +1,68 @@
 @import url('https://fonts.googleapis.com/css?family=Lora');
 
-.navbar .nav .navbar-brand {
-  font-family: 'Lora', serif;
-  color: #000;
+* {
+  box-sizing: border-box;
 }
 
-html {
+a {
+  color: #85FDF3;
+}
+
+header {
+border-bottom: solid 1px #E4E5E5;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+header h3 {
+  font-family: 'Lora', serif;
+}
+
+footer {
   background-color: red;
+  height: 100px;
+}
+
+.imageSection {
+  display: flex;
+}
+
+.left-body {
+  font-family: 'Lora', serif;
+    text-align: center;
+    position: relative;
+    top: 20px;
+    left: 145px;
+}
+
+.leftBodyInput {
+  width: 53%;
+  margin-bottom: 7px;
+  height: 32px;
+  font-size: 14pt;
+}
+
+#triangles {
+  height: 500px;
+    margin: auto;
+    position: relative;
+    right: 114px;
+}
+
+#bioBox {
+  width: 53%;
+  font-size: 14pt;
+}
+
+#mainContainer {
+  width: 95%;
+  margin: auto;
+}
+
+#button {
+  background-color: #85FDF3;
+color: #9d9fa0;
+width: 53%;
+font-weight: bold;
 }
